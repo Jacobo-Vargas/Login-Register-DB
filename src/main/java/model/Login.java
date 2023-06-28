@@ -15,7 +15,7 @@ public class Login {
      */
     public boolean verifyCredentials(String nickname, String pass) {
         boolean loginSuccesfull = false;
-        String query = "SELECT * FROM datos WHERE (user = ? OR user = ?) AND password = ?";
+        String query = "SELECT * FROM datos WHERE (user = ? OR document = ?) AND password = ?";
 
         // When used, try(), it automatically closes the connection.
         try (Connection connection = getConnectionDB()) {
