@@ -1,0 +1,24 @@
+.root{
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-background-radius: 10;
+}
+
+.btn{
+    -fx-background-color: #00ECFF;
+    -fx-cursor: HAND;
+    -fx-border-radius: 2px;
+
+}
+.btn:hover{
+    -fx-background-color: #000FFF;
+
+}
+.btnRecuperarPass{
+    -fx-background-color: transparent;
+}
+.fondoTransparente{
+    -fx-background-color: transparent;
+}
+.fondoLogin{
+    -fx-background-color: #000000;
+}

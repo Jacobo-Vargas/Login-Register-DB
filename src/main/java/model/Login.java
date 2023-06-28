@@ -5,7 +5,7 @@ import java.sql.*;
 import static dataBase.connectionDB.*;
 
 /**
- * @description this class verify the dates of user for your log in
+ * @description this class verify the datas of user for your log in
  */
 public class Login {
     /**
@@ -15,7 +15,7 @@ public class Login {
      */
     public boolean verifyCredentials(String nickname, String pass) {
         boolean loginSuccesfull = false;
-        String query = "SELECT * FROM datos WHERE (user = ? OR document = ?) AND password = ?";
+        String query = "SELECT * FROM datosUno WHERE (user = ? OR document = ?) AND password = ?";
 
         // When used, try(), it automatically closes the connection.
         try (Connection connection = getConnectionDB()) {
