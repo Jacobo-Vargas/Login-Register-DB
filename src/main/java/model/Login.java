@@ -5,7 +5,7 @@ import java.sql.*;
 import static dataBase.connectionDB.*;
 
 /**
- * @description this class verify the dates of user for your log in
+ * @description this class verify the datas of user for your log in
  */
 public class Login {
     /**
