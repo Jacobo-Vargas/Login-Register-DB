@@ -5,13 +5,13 @@ import java.sql.*;
 import static dataBase.connectionDB.*;
 
 /**
- * @description
+ * @description this class verify the dates of user for your log in
  */
 public class Login {
     /**
      * @param nickname name or document of user
      * @param pass     password of user
-     * @return true in case the connection is successful.
+     * @return true in case the login is successful.
      */
     public boolean verifyCredentials(String nickname, String pass) {
         boolean loginSuccesfull = false;
